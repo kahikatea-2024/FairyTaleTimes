@@ -6,6 +6,11 @@ export default {
       fontFamily: {
         newsreader: ['Newsreader', 'sans-serif'],
     },
+    colors:{
+      DarkBlue: '#2e3d50',
+      LightBlue: '#f1f7fd',
+
+    }
     },
   },
   plugins: [],
