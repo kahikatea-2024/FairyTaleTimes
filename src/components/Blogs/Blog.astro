@@ -13,10 +13,10 @@ const { image, title, subtitle, author, text } = Astro.props as Props;
 <div class="border-3 border-DarkBlue p-4"> 
   <img src={image} alt={title} class="w-full h-auto aspect-[2/1] object-cover rounded-t-lg" /> 
   <div class="p-4">
-    <h2 class="text-xl text-DarkBlue font-bold">{title}</h2>
-    <h3 class="text-lg text-DarkBlue">{subtitle}</h3>
-    <p class="text-sm text-DarkBlue">By {author}</p>
-    <p class="text-DarkBlue">{text}</p>
+    <h2 class="text-xl text-DarkBlue font-lora font-bold">{title}</h2>
+    <h3 class="text-lg text-DarkBlue font-lora">{subtitle}</h3>
+    <p class="text-sm text-DarkBlue font-lora">By {author}</p>
+    <p class="text-DarkBlue font-lora">{text}</p>
   </div>
 </div>
 <>

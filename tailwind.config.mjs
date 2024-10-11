@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        newsreader: ['Newsreader', 'sans-serif'],
-        space: ['Space Grotesk', 'sans-serif'],
-        lora: ['Lora', 'serif'],
+        newsreader: ['Newsreader', 'sans-serif'], // Title 
+        space: ['Space Grotesk', 'sans-serif'], // Subtitle
+        lora: ['Lora', 'serif'], // Main
 
     },
     colors:{
