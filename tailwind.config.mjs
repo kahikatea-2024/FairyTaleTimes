@@ -5,6 +5,9 @@ export default {
     extend: {
       fontFamily: {
         newsreader: ['Newsreader', 'sans-serif'],
+        space: ['Space Grotesk', 'sans-serif'],
+        lora: ['Lora', 'serif'],
+
     },
     },
   },
