@@ -7,16 +7,15 @@ export default {
         'md-lg': { min: '1020px', max: '1250px' },
       },
       fontFamily: {
-        newsreader: ['Newsreader', 'sans-serif'], // Title 
+        newsreader: ['Newsreader', 'sans-serif'], // Title
         space: ['Space Grotesk', 'sans-serif'], // Subtitle
         lora: ['Lora', 'serif'], // Main
-
-    },
-    colors:{
-      DarkBlue: '#2e3d50',
-      LightBlue: '#f1f7fd',
-
-    }
+        buttons: ['Poppins', 'sans-serif'],
+      },
+      colors: {
+        DarkBlue: '#2e3d50',
+        LightBlue: '#f1f7fd',
+      },
     },
   },
   plugins: [],
