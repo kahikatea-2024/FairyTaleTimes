@@ -5,7 +5,10 @@ We where given the promts "Swamp" and "Magazine"
 
 Hence a Magazine from the very swapy world of the Shrek franchise
 
-## Pull it doen and run these commands to check it out for yourself.
+![Uploading image.png…]()
+
+
+### Pull it down and run these commands to check it out for yourself
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
