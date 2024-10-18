@@ -1,2 +1,30 @@
-<>
-</>
+---
+import { Icon } from 'astro-icon/components'
+const currentYear = new Date().getFullYear()
+---
+
+<footer class="w-full h-60 bg-slate-700 text-white">
+  <div
+    class="container mx-auto h-full flex flex-col justify-evenly items-center"
+  >
+    <div class="flex flex-col items-center">
+      <!-- Footer links -->
+      <div class="my-6">
+        <a class="mx-4" href="#">Home</a>
+        <a class="mx-4" href="/#blogs">Blogs</a>
+        <a class="mx-4" href="#">Reviews</a>
+        <hr />
+      </div>
+      <!-- Social links -->
+      <div class="my-4 flex justify-center space-x-4">
+        <Icon name="mail" class="text-2xl" />
+        <Icon name="facebook" class="text-2xl" />
+        <Icon name="instagram" class="text-2xl" />
+        <Icon name="x" class="text-2xl" />
+        <Icon name="pinterest" class="text-2xl" />
+      </div>
+    </div>
+    <!-- Copyright -->
+    <p class="mt-4">&copy; Copyright Team Fairydust {currentYear}</p>
+  </div>
+</footer>
