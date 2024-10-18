@@ -1,4 +1,4 @@
-const profileData = [
+export const profileData = [
   {
     author: 'Shrek',
     image: 'public/blog-images/1.png',
