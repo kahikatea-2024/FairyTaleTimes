@@ -10,13 +10,14 @@ interface Props {
 const { image, title, subtitle, author, text } = Astro.props as Props;
 ---
 
-<div class="border-3 border-DarkBlue p-4"> 
+<div class="border border-3 border-DarkBlue"> 
   <img src={image} alt={title} class="w-full h-auto aspect-[2/1] object-cover" /> 
   <div class="p-4 -ml-4">
-    <h2 class="text-xl text-DarkBlue font-lora font-bold">{title}</h2>
-    <h3 class="text-lg text-DarkBlue font-lora">{subtitle}</h3>
-    <p class="text-sm text-DarkBlue font-lora">By {author}</p>
-    <p class="text-DarkBlue font-lora">{text}</p>
+    <h2 class="px-4 text-xl text-DarkBlue font-lora font-bold">{title}</h2>
+    <h3 class="px-4 text-lg text-DarkBlue font-lora">{subtitle}</h3>
+    <p class="px-4 text-sm text-DarkBlue font-lora">By {author}</p>
+    <p class="px-4 text-DarkBlue font-lora">{text}</p>
+    <p class="px-4 text-sm text-DarkBlue font-lora italic">Click to read more</p>
   </div>
 </div>
 <>
