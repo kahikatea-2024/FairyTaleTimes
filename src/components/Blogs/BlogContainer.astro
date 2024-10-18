@@ -1,19 +1,20 @@
 ---
-import Blog from './Blog.astro';
-import blogData from '../../data/blogData';
-
+import Blog from './Blog.astro'
+import blogData from '../../data/blogData'
 ---
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-  {blogData.map((blog) => (
-    <Blog 
-      image={blog.image}
-      title={blog.title}
-      subtitle={blog.subtitle}
-      author={blog.author}
-      text={blog.text}
-    />
-  ))}
-</div>
-<>
-</>
+<section id="blogs">
+  <div class="px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    {
+      blogData.map((blog) => (
+        <Blog
+          image={blog.image}
+          title={blog.title}
+          subtitle={blog.subtitle}
+          author={blog.author}
+          text={blog.text}
+        />
+      ))
+    }
+  </div>
+</section>
