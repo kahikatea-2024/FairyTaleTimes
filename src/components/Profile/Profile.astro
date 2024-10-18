@@ -11,10 +11,11 @@ const { author, image, topic, description, profile } = Astro.props as Props;
 
 ---
 
-<div>
-<h2>{author}</h2>
-<img src={image} alt={author}/>
-<h3>{topic}</h3>
-<p>{description}</p>
-<p>{profile}</p>
+<div class="border-2 border-DarkBlue p-4">
+  <img src={image} alt={author}/>
+  <div class="my-4">
+<h2 class="text-xl text-DarkBlue font-lora font-bold">{author}</h2>
+<p class="text-md text-DarkBlue font-lora"><span class="font-bold">{topic}:</span> {description}</p>
+</div>
+<p class="text-sm text-DarkBlue font-lora">{profile}</p>
 </div>
