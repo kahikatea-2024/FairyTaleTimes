@@ -1,0 +1,30 @@
+---
+import Review from './Review.astro'
+import reviewData from '../../data/reviewData'
+---
+
+<section id="reviews" class="relative h-[60vh]">
+  <div class="relative h-full overflow-hidden">
+    <img
+      src="/Fairy-Godmothers-office-footer.png"
+      alt="picture of fairy godmothers office"
+      class="w-full h-full object-cover object-center"
+    />
+    <div
+      class="absolute inset-0 container mx-auto flex flex-col items-center justify-start text-white"
+    >
+      <h2
+        class="my-20 font-newsreader lg:text-8xl md:text-6xl sm:text-3xl text-center"
+      >
+        Reviews
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        {
+          reviewData.map((review) => (
+            <Review quote={review.quote} source={review.source} />
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

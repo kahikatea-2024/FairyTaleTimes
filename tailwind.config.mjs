@@ -14,6 +14,7 @@ export default {
       },
       colors: {
         DarkBlue: '#2e3d50',
+        MidBlue: '#adb8c4',
         LightBlue: '#f1f7fd',
       },
       keyframes: {
