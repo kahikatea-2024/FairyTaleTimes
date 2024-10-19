@@ -1,7 +1,7 @@
 export const profileData = [
   {
     author: 'Shrek',
-    image: 'public/blog-images/1.png',
+    image: 'profile-images/Shrek.jpeg',
     topic: 'Swamp It Like It’s Hot',
     description:
       "Grumpy ogre life hacks for when people just won't leave you the hell alone.",
@@ -10,7 +10,7 @@ export const profileData = [
   },
   {
     author: 'Fiona',
-    image: 'public/blog-images/2.png',
+    image: 'profile-images/Fiona.jpeg',
     topic: 'Beauty & the Beast Mode',
     description:
       'Ogre strong, princess glam, and always ready to slay... literally.',
@@ -19,7 +19,7 @@ export const profileData = [
   },
   {
     author: 'Donkey',
-    image: 'public/blog-images/3.png',
+    image: 'profile-images/Donkey.jpeg',
     topic: 'Dragon Tales (Yeah, You Know What I Mean)',
     description:
       "Love, life, and a lot of heat—straight from the mouth of a donkey who's, uh, into dragons.",
@@ -28,7 +28,7 @@ export const profileData = [
   },
   {
     author: 'Dragon',
-    image: 'public/blog-images/4.png',
+    image: 'profile-images/Dragon.jpeg',
     topic: 'Hot & Heavy',
     description:
       'Fiery love tips, hybrid kids, and keeping the flame alive with a talking donkey (don’t ask).',
@@ -37,7 +37,7 @@ export const profileData = [
   },
   {
     author: 'Fairy Godmother',
-    image: 'public/blog-images/5.png',
+    image: 'profile-images/Fairy-Godmother.jpeg',
     topic: 'Makeovers & Meltdowns',
     description:
       'Editor-in-chief Fairy Godmother’s no-nonsense guide to running the kingdom—and running you into the ground.',
