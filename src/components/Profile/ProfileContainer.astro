@@ -1,18 +1,20 @@
 ---
 import Profile from './Profile.astro';
 import {profileData} from '../../data/profileData'
+import ProfileHeader from './ProfileHeader.astro';
 ---
-
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-  {profileData.map((profile) => (
-
-    <Profile
-    author={profile.author}
-    image={profile.image}
-    topic={profile.topic}
-    description={profile.description}
-    profile={profile.profile}
+<section id="profile">
+  <ProfileHeader/>
+    <div class="px-20 pb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      {profileData.map((profile) => (
+        
+        <Profile
+        author={profile.author}
+        image={profile.image}
+        topic={profile.topic}
+        description={profile.description}
+        profile={profile.profile}
 />
   ))}
-
 </div>
+</section>
