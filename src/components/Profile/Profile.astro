@@ -11,13 +11,13 @@ const { author, image, topic, description, profile } = Astro.props as Props;
 
 ---
 
-<div class="py-8 place-items-center divide-x-4 divide-DarkBlue flex flex-wrap md:flex-nowrap">
+<div class="py-8 place-items-center divide-x-4 divide-DarkBlue flex flex-wrap md:flex-nowrap even:flex-row-reverse even:divide-x-reverse">
 <div>
   <img src={image} alt={author} class="max-w-60 px-4 flex-none"/>
 </div>
 <div class="px-4 flex-grow">
-  <p class="text-md text-DarkBlue font-lora"><span class="font-bold">{topic}:</span> {description}</p>
-<h2 class="text-xl text-DarkBlue font-lora font-bold">{author}</h2>
+  <h2 class="text-xl text-DarkBlue font-lora font-bold">{author}</h2>
+  <p class="text-md mb-2 text-DarkBlue font-lora"><span class="font-bold">{topic}:</span> {description}</p>
 <p class="text-sm text-DarkBlue font-lora">{profile}</p>
 </div>
 </div>
